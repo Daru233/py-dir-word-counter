@@ -1,0 +1,28 @@
+package etc..
+
+import org.test.sometest1
+import org.test.sometest2
+
+public class SpringRestApplication {
+
+    @Before
+    public setUp(){
+        some code;
+    }
+
+    @Test
+    public givenX_WhenY_ThenZ(){
+        some code;
+    }
+
+    @Test
+    public givenA_WhenB_ThenC(){
+        some code;
+    }
+
+    @After
+    public cleanUp(){
+        some code;
+    }
+
+}
